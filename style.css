@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-gradiente-azul-escuro_78370-2078.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1728777600&semt=ais_hybrid');
+    background-size: cover;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #00264d;
+}
+
+header img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.85);
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h2 {
+    color: #00264d;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004080;
+}
+
+.csv-output {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: monospace;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button#send-button, button#download-button {
+    width: 45%;
+}
